@@ -1,8 +1,17 @@
 h1 {
-    text-align: center;
-    outline: 1px solid red;
+    display: flex;
     height: 100px;
+    align-content: flex-end;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
+
+header{
+    text-align: center;
+}
+    
 body h2 {
     outline: 12px;
 }
@@ -12,6 +21,26 @@ body{
     margin: 50px;
 }
 
-header{
-    background-color: #f5f5f5;
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-items li{
+    padding: 50px;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content: flex-end;
+
 }
