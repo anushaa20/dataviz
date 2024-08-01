@@ -14,25 +14,31 @@
   
 h1 {
     display: flex;
-    height: 100px;
+    height: 180px;
     align-content: flex-end;
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
 }
 
 header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 48px;
     text-align: center;
+    padding-top: 50px;
 }
     
 body h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     outline: 12px;
 }
 
 body{
-    font-family: 'Courier New', Courier, monospace, serif;
-    margin: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
 }
 
 .wrapper{
