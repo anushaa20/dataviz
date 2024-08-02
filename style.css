@@ -56,6 +56,24 @@ body p, body h1, body h2, body h3, body h4, body h5, body h6 {
     text-align: left;
   }
 
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: top;
+  }
+  
+  .container img {
+    width: 50%;
+    height: 440px;
+    margin-right: 20px;
+  }
+  
+  .container .flourish-embed {
+    width: 50%;
+    height: auto;
+    margin-left: 20px;
+  }
 
 .wrapper{
     display: flex;
