@@ -106,7 +106,7 @@ body ol {
     color: #3b3535;
     text-align: left; /* center the text inside the box */
     position: relative;
-    overflow: hidden;
+    overflow: visible;
   }
   
   .rounded-box::after {
