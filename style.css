@@ -43,6 +43,12 @@ body{
     padding-right: 100px;
 }
 
+body a {
+    color: #413f3f; 
+    font-weight: bold;
+}
+
+
 body p, body h1, body h2, body h3, body h4, body h5, body h6 {
     padding-left: 200px;
     padding-right: 200px;
@@ -50,10 +56,6 @@ body p, body h1, body h2, body h3, body h4, body h5, body h6 {
     text-align: left;
   }
 
-a {
-    color: #413f3f; /* Change this to the color you want */
-    font-weight: bold;
-}
 
 .wrapper{
     display: flex;
